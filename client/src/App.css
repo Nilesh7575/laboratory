@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  background-color: #eeeee4;
+}
+
+.formCard{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 30rem;
+  padding: 1.2rem;
+  box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.75);
+}
+.item{
+  flex: 1 1 9.4rem;
+}
+
+.navigation{
+  width: 150%;
+}
+
+/* .navi-bar{
+  width: 100%;
+} */
+
+
+/* .sampleCard{
+  max-width: 35%;
+  margin: 10vh auto;
+  /* min-width: 25%; */
+ 
+
+@media only screen and (width: 375px) {
+  .sampleCard {
+    width: 25rem;
+    margin: 10vh auto;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  .sampleCard {
+    width: 25rem;
+  }
+}
+
+
+.navi{
+  color: white !important;
+}
+
+.userTable{
+  background-color: white !important;
+  border-radius: 8px;
+  box-shadow: 0px 0px 19px -3px rgba(0,0,0,0.75);
+}
